@@ -6,6 +6,7 @@ import Timeline1 from "./Timeline1/Timeline1";
 import SearchAndFilter from "./searchAndFilter/SearchAndFilter";
 import ProgressBar from "./ProgressBar/ProgressBar";
 import NavBar from "./Navbar/NavBar";
+import Sidebar from "./Sidebar/Sidebar";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/skeleton" element={<SkeletonPost />} />
           <Route path="/search&filter" element={<SearchAndFilter />} />
           <Route path="/infinitescroll" element={<InfiniteScroll />} />
+          <Route path="/sidebar" element={<Sidebar />} />
         </Routes>
       </Router>
     </div>

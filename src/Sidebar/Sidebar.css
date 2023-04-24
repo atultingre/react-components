@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    /* height: 100vh; */
+    height: calc(100dvh - 80px);
+    background-image: url(/public/images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.side-nav {
+    margin-top: 80px;
+    width: 110px;
+    /* height: 100%; */
+    height: calc(100dvh - 80px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 15px;
+    background: rgba(255, 254, 254, 0.2);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: width 0.5s;
+}
+
+.side-nav:hover {
+    width: 250px;
+}
+
+.side-nav:hover .user div {
+    display: block;
+}
+
+.side-nav:hover .user {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.user-img{
+    background: linear-gradient(135deg,
+    hsla(45, 100%, 71%, 0.251) 0%,
+    hsla(35, 100%, 68%, 0) 59.86%), hsl(240, 2%, 13%);
+}
+
+.user div {
+    display: none;
+}
+
+.user h2 {
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.user-img {
+    width: 40px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.side-nav:hover .user-img {
+    margin: 0;
+}
+
+.star-img {
+    width: 15px;
+    display: none;
+}
+.email{
+    color: rgba(8, 8, 8, 0.9);
+    text-transform: lowercase !important;
+}
+.side-nav:hover .star-img {
+    display: block;
+}
+
+.side-ul {
+    list-style: none;
+    padding: 0 15px;
+}
+
+.side-ul .side-li {
+    margin: 30px;
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.side-nav:hover .side-ul .side-li {
+    justify-content: flex-start;
+}
+
+.side-ul .side-li img {
+    width: 30px;
+    margin-right: 0px;
+}
+
+.side-nav:hover .side-ul .side-li img {
+    margin-right: 10px;
+}
+
+.side-ul .side-li p {
+    white-space: nowrap;
+    display: none;
+}
+
+.side-nav:hover p {
+    display: block;
+}
