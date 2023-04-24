@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,13 +14,15 @@ body {
 .timeline {
     position: relative;
     /* min-width: 1200px; */
-    margin: 100px auto;
+    margin: auto;
+    margin: 50px auto;
 }
 
 .container {
     padding: 10px 50px;
     position: relative;
     width: 50%;
+    margin: 0;
     /* background: rgba(0, 0, 0, 0.3); */
     animation: movedown 1s linear forwards;
     opacity: 0;
@@ -61,8 +65,6 @@ body {
 }
 
 
-
-
 .container img {
     position: absolute;
     width: 40px;
@@ -91,7 +93,6 @@ body {
 .right-container img {
     left: -20px;
 }
-
 
 .timeline::after {
     content: '';
@@ -124,7 +125,8 @@ body {
     display: inline-block;
     margin-bottom: 15px;
 }
-.text-box p{
+
+.text-box p {
     color: #2e364a;
 }
 
@@ -138,6 +140,7 @@ body {
     border-bottom: 15px solid transparent;
     border-left: 15px solid #fff;
     right: -15px;
+
 }
 
 .right-container-arrow {
@@ -155,14 +158,15 @@ body {
 
 @media screen and (max-width: 600px) {
     .timeline {
-        margin: 50px auto;
+        /* margin: 50px auto; */
+        margin: 5px auto;
     }
 
     .timeline::after {
         left: 31px;
     }
 
-    .container{
+    .container {
         width: 100%;
         padding-left: 80px;
         padding-right: 25px;

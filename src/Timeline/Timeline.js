@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Timeline.css"
+
 const Timeline = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const Timeline = () => {
         <div className="container right-container">
           <img src="/images/amazon.png" alt="amazon" />
           <div className="text-box">
-            <h2>Amazon</h2>
+            <h2>Amazon Inc.</h2>
             <small>2018-2019</small>
             <p>The success of every website depends on search engine optimisation and digital marketing strategy. If youare  om forst page of all major search...</p>
             <span className='right-container-arrow'></span>
