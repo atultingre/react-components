@@ -14,7 +14,6 @@ function NavBar() {
             ATUL
             <i className="fas fa-code"></i>
           </NavLink> */}
-
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink

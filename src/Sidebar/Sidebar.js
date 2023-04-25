@@ -7,7 +7,7 @@ const Sidebar = () => {
       <header className="sidebar-header">
         <div className="side-nav">
           <div className="user">
-            <img className="user-img" src="images/user.png" alt="" className="user-img" />
+            <img className="user-img" src="images/user.png" alt="userimage" />
             <div>
               <h2>Atul Tingre</h2>
               <p className="email">tingre48@gmail.com</p>

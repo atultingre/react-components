@@ -1,6 +1,6 @@
 import React from "react";
-import './SkillProgressbar.css'
-import skill from "./Skills.json"
+import "./SkillProgressbar.css";
+import skill from "./Skills.json";
 
 const SkillProgressBar = () => {
   return (

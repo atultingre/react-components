@@ -60,10 +60,10 @@
     overflow: hidden;
 }
 
-.user-img{
+.user-img {
     background: linear-gradient(135deg,
-    hsla(45, 100%, 71%, 0.251) 0%,
-    hsla(35, 100%, 68%, 0) 59.86%), hsl(240, 2%, 13%);
+            hsla(45, 100%, 71%, 0.251) 0%,
+            hsla(35, 100%, 68%, 0) 59.86%), hsl(240, 2%, 13%);
 }
 
 .user div {
@@ -90,10 +90,12 @@
     width: 15px;
     display: none;
 }
-.email{
+
+.email {
     color: rgba(8, 8, 8, 0.9);
     text-transform: lowercase !important;
 }
+
 .side-nav:hover .star-img {
     display: block;
 }

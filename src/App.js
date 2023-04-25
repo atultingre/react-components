@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <Router>
-        <NavBar/>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Timeline />} />
           <Route path="/progressbar" element={<SkillProgressBar />} />
