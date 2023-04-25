@@ -1,6 +1,7 @@
 import React from "react";
-import "./SkillProgressbar.css";
+import "./SkillProgressBar.css";
 import skill from "./Skills.json";
+
 
 const SkillProgressBar = () => {
   return (
@@ -26,7 +27,6 @@ const SkillProgressBar = () => {
         </section>
       </article>
     </div>
-    
   );
 };
 
