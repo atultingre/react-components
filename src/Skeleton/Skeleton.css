@@ -16,48 +16,77 @@
 
 .skeleton.width-10 {
     width: 10%;
+    border-radius: 80px;
+}
+
+.skeleton-flex{
+    display: flex;
+    margin-top: 0px;
+    flex-direction: row;
+    gap: 10px;
+}
+.skeleton.width-10.circle{
+    display: flex;
+    width: 3%;
+    border-radius: 100%;
 }
 
 .skeleton.width-20 {
     width: 20%;
+    border-radius: 80px;
 }
 
 .skeleton.width-30 {
     width: 30%;
+    border-radius: 80px;
 }
 
 .skeleton.width-40 {
     width: 40%;
+    border-radius: 80px;
 }
 
 .skeleton.width-50 {
     width: 50%;
+    border-radius: 80px;
 }
 
 .skeleton.width-60 {
     width: 60%;
+    border-radius: 80px;
 }
 
 .skeleton.width-70 {
     width: 70%;
+    border-radius: 80px;
 }
 
 .skeleton.width-80 {
     width: 80%;
+    border-radius: 80px;
 }
 
 .skeleton.width-90 {
     width: 90%;
+    border-radius: 80px;
 }
 
 .skeleton.width-100 {
     width: 100%;
+    border-radius: 80px;
 }
 
 .skeleton.profile-circle {
-    width: 150px;
-    height: 150px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
+}
+
+.skeleton.profile-square {
+    width: 90px;
+    height: 90px;
+    /* border-radius: 20%; */
+    border-radius: 1.5rem;
 }
 
 .post {
