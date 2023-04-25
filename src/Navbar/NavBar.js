@@ -36,7 +36,7 @@ function NavBar() {
                 Timeline1
               </NavLink>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <NavLink
                 exact
                 to="/progressbar"
@@ -45,7 +45,7 @@ function NavBar() {
                 onClick={handleClick}>
                 Progressbar
               </NavLink>
-            </li> */}
+            </li>
             <li className="nav-item">
               <NavLink
                 exact

@@ -4,7 +4,7 @@ import "./Sidebar.css";
 const Sidebar = () => {
   return (
     <div>
-      <header>
+      <header className="sidebar-header">
         <div className="side-nav">
           <div className="user">
             <img className="user-img" src="images/user.png" alt="" className="user-img" />
