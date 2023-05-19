@@ -7,6 +7,7 @@ import SearchAndFilter from "./searchAndFilter/SearchAndFilter";
 import NavBar from "./Navbar/NavBar";
 import Sidebar from "./Sidebar/Sidebar";
 import SkillProgressBar from "./progressbar/SkillProgressBar";
+import Toastify from "./Toastify/Toastify";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/search&filter" element={<SearchAndFilter />} />
           <Route path="/infinitescroll" element={<InfiniteScroll />} />
           <Route path="/sidebar" element={<Sidebar />} />
+          <Route path="/toastify" element={<Toastify />} />
         </Routes>
       </Router>
     </div>
