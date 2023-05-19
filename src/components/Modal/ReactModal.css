@@ -1,0 +1,21 @@
+.react-modal {
+    padding-top: 50px;
+}
+
+.btn {
+    border-radius: 1.5em;
+    width: 7.5em;
+    cursor: pointer;
+}
+
+h2{
+    
+}
+
+.modal-content{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

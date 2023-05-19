@@ -8,6 +8,7 @@ import NavBar from "./Navbar/NavBar";
 import Sidebar from "./Sidebar/Sidebar";
 import SkillProgressBar from "./progressbar/SkillProgressBar";
 import Toastify from "./Toastify/Toastify";
+import ReactModal from "./components/Modal/ReactModal";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/infinitescroll" element={<InfiniteScroll />} />
           <Route path="/sidebar" element={<Sidebar />} />
           <Route path="/toastify" element={<Toastify />} />
+          <Route path="/modal" element={<ReactModal />} />
         </Routes>
       </Router>
     </div>
