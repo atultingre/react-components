@@ -9,6 +9,7 @@ import Sidebar from "./Sidebar/Sidebar";
 import SkillProgressBar from "./progressbar/SkillProgressBar";
 import Toastify from "./Toastify/Toastify";
 import ReactModal from "./components/Modal/ReactModal";
+import Tolltip from "./components/Tooltip/Tolltip";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/sidebar" element={<Sidebar />} />
           <Route path="/toastify" element={<Toastify />} />
           <Route path="/modal" element={<ReactModal />} />
+          <Route path="/tooltip" element={<Tolltip />} />
         </Routes>
       </Router>
     </div>

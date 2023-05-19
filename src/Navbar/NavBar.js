@@ -17,7 +17,7 @@ function NavBar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/"
                 activeClassName="active"
                 className="nav-links"
@@ -27,7 +27,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/timeline1"
                 activeClassName="active"
                 className="nav-links"
@@ -37,7 +37,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/progressbar"
                 activeClassName="active"
                 className="nav-links"
@@ -47,7 +47,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/skeleton"
                 activeClassName="active"
                 className="nav-links"
@@ -57,7 +57,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/search&filter"
                 activeClassName="active"
                 className="nav-links"
@@ -67,7 +67,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/infinitescroll"
                 activeClassName="active"
                 className="nav-links"
@@ -77,7 +77,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/sidebar"
                 activeClassName="active"
                 className="nav-links"
@@ -87,7 +87,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/toastify"
                 activeClassName="active"
                 className="nav-links"
@@ -97,12 +97,22 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/modal"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}>
                 Modal
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact="true"
+                to="/tooltip"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}>
+                Tooltip
               </NavLink>
             </li>
           </ul>
