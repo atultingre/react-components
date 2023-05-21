@@ -14,6 +14,7 @@ import Countup from "./components/Countup/Countup";
 import ReactColor from "./components/ReactColor/ReactColor";
 import DatePickerComponent from "./components/DatePicker/DatePickerComponent";
 import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
+import Loader from "./components/Loader/Loader";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/reactcolor" element={<ReactColor />} />
           <Route path="/datepicker" element={<DatePickerComponent />} />
           <Route path="/videoplayer" element={<VideoPlayer />} />
+          <Route path="/loader" element={<Loader />} />
         </Routes>
       </Router>
     </div>

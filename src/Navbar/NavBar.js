@@ -155,6 +155,16 @@ function NavBar() {
                Video Player
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                exact="true"
+                to="/loader"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}>
+               Loader
+              </NavLink>
+            </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
