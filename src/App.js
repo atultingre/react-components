@@ -11,6 +11,9 @@ import Toastify from "./Toastify/Toastify";
 import ReactModal from "./components/Modal/ReactModal";
 import Tolltip from "./components/Tooltip/Tolltip";
 import Countup from "./components/Countup/Countup";
+import ReactColor from "./components/ReactColor/ReactColor";
+import DatePickerComponent from "./components/DatePicker/DatePickerComponent";
+import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
           <Route path="/modal" element={<ReactModal />} />
           <Route path="/tooltip" element={<Tolltip />} />
           <Route path="/countup" element={<Countup />} />
+          <Route path="/reactcolor" element={<ReactColor />} />
+          <Route path="/datepicker" element={<DatePickerComponent />} />
+          <Route path="/videoplayer" element={<VideoPlayer />} />
         </Routes>
       </Router>
     </div>

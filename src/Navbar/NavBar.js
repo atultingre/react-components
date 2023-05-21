@@ -125,6 +125,36 @@ function NavBar() {
                 Countup
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                exact="true"
+                to="/reactcolor"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}>
+               React Color
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact="true"
+                to="/datepicker"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}>
+               Date Picker
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact="true"
+                to="/videoplayer"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}>
+               Video Player
+              </NavLink>
+            </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
