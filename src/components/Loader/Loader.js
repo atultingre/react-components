@@ -1,9 +1,11 @@
 import React from "react";
 import { BounceLoader, BarLoader, BeatLoader } from "react-spinners";
+import Loader1 from "./Loader1";
 
 const Loader = () => {
   return (
     <div className="App">
+    <Loader1/>
       <h1>Loading Component</h1>
       <BounceLoader loading size={90} color="hotpink"  />
       <BarLoader loading size={55} color="yellow"  />
