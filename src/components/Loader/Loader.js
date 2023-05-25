@@ -5,10 +5,10 @@ import Loader1 from "./Loader1";
 const Loader = () => {
   return (
     <div className="App">
-    <Loader1/>
       <h1>Loading Component</h1>
-      <BounceLoader loading size={90} color="hotpink"  />
-      <BarLoader loading size={55} color="yellow"  />
+      <Loader1 />
+      <BounceLoader loading size={90} color="hotpink" />
+      <BarLoader loading size={55} color="yellow" />
       <BeatLoader loading size={72} color="blue" />
     </div>
   );
